@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link href="spotify.css" rel="stylesheet">
+    <link rel="icon" href="./icons/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <div class="side-bar">
+            <div class="nav">
+                <div class="nav-option" style ="opacity : 1 ">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <a href="Home Page" >Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="Serching.." >Search</a>
+                </div>
+                <div class="library">
+                    <div class="option">
+                        <div class="lib-option nav-option" >
+                            <img src="./ICONS/library_icon.png">
+                            <a href="Library" >Your Library</a>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="lib-box">
+                        <div class="box">
+                            <p class="box-p1">Create your first playlist</p>
+                            <p class="box-p2">it's easy, we'll help you</p>
+                            <button class="badge" >Create playlist</button>
+                        </div>
+                         <div class="box">
+                            <p class="box-p1">Let's find some prodcast to follow</p>
+                            <p class="box-p2">We'll keep you updated on new episodes</p>
+                            <button class="badge" >Browse Prodcast</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="sticky-bar">
+                <div class="stikcy-nav-icons">
+                    <img src="./ICONS/backward_icon.png">
+                    <img class="hide" src="./ICONS/forward_icon.png">
+                </div>
+                <div class="stikcy-nav-option">
+                    <button class="badge nav-item hide" >Explore Primium</button>
+                    <button class="badge nav-item dark-badge" ><i class="fa-regular fa-circle-down" style="margin-right:5px ;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+                
+            </div>
+            <h2>Recently played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./ICONS/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50-Globel</p>
+                    <p class="card-info">Your daily update of the most played trackes right...</p>
+                </div>
+                <div class="card">
+                    <img src="./ICONS/card3img.jpeg" class="card-img">
+                    <p class="card-title">Mere Pass Tum Ho</p>
+                    <p class="card-info">Rahat Fateh Ali Khan</p>
+                </div>
+                <div class="card">
+                    <img src="./ICONS/card2img.jpeg" class="card-img">
+                    <p class="card-title">Mahiye Jinna Sohna</p>
+                    <p class="card-info">Darshan raval</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./ICONS/card2img.jpeg" class="card-img">
+                    <p class="card-title">Mahiye Jinna Sohna</p>
+                    <p class="card-info">Darshan raval</p>
+                </div>
+                 <div class="card">
+                    <img src="./ICONS/album_picture.jpeg" class="card-img">
+                    <p class="card-title">Pasoori Nu</p>
+                    <p class="card-info">Arjit Singh</p>
+                </div>
+                 <div class="card">
+                    <img src="./ICONS/card4img.jpeg" class="card-img">
+                    <p class="card-title">Naa Ready</p>
+                    <p class="card-info">Anirudh Ravichandra</p>
+                </div>
+                 <div class="card">
+                    <img src="./ICONS/card3img.jpeg" class="card-img">
+                    <p class="card-title">Mere Pass Tum Ho</p>
+                    <p class="card-info">Rahat Fateh Ali Khan</p>
+                </div>
+                
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./ICONS/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top song - Globel</p>
+                    <p class="card-info">Your monthly update of the most played trackes right...</p>
+                </div>  
+                 <div class="card">
+                    <img src="./ICONS/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top song-India</p>
+                    <p class="card-info">Your weakly update of the most played trackes right...</p>
+                </div>
+                 <div class="card">
+                    <img src="./ICONS/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50-Globel</p>
+                    <p class="card-info">Your daily update of the most played trackes right...</p>
+                </div>
+                 <div class="card">
+                    <img src="./ICONS/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 100-Globel</p>
+                    <p class="card-info">Your Yearly update of the most played trackes right...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-bar">
+            <div class="album"></div>
+            <div class="player">
+                <div class="player-cantrol">
+                    <img src="./ICONS/player_icon1.png" class="player-cantrol-icon">
+                    <img src="./ICONS/player_icon2.png" class="player-cantrol-icon">
+                    <img src="./ICONS/player_icon3.png" class="player-cantrol-icon" style="height: 2rem; opacity: 1; margin-top: 5px;">
+                    <img src="./ICONS/player_icon4.png" class="player-cantrol-icon">
+                    <img src="./ICONS/player_icon5.png" class="player-cantrol-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="cur-time">00:00</span>
+                    <input type="range" min="0" max="100" step="1" class="progress-bar">
+                    <span class="tot-time">03:20</span>
+                </div>
+            </div>
+            <div class="control"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
